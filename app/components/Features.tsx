@@ -18,7 +18,7 @@ const Features = () => {
           buttonText='Find a rental'
           description="With 35+ filters and custom keyword search, Trulia can help you easily find a home or apartment for rent that you'll love."
           title='Rent a home'
-          imageUrl='/assets/rentAHome.svg'
+          imageUrl='/assets/RentAHome.svg'
         />
         <Feature
           buttonText='Learn more'

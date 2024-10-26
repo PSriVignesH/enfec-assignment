@@ -17,7 +17,7 @@ const CardWithImage:FC<CardWithImageProps>= ({imageUrl,linkText,location,type}) 
               <Card className={`${type === "single" ? "h-[395px]": "h-[195px]"} bg-cover bg-center`}  style={{ backgroundImage: `url(${imageUrl})`}}>
                 <CardContent className="flex flex-col items-start justify-between p-5 h-full">
             <span className="text-xl font-bold text-white">{location}</span>
-            <div className="text-md font-semibold bg-slate-100 text-black leading-[1.5] px-[6] 
+            <div className="text-md font-semibold bg-slate-100 text-black leading-[1.5] px-[6px] 
              py-[10px] rounded-lg">
               {linkText}
             </div>
