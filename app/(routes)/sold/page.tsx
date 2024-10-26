@@ -4,15 +4,15 @@ import Features from '@/app/components/Features'
 import Hero from '@/app/components/Hero'
 import React from 'react'
 
-const RentPage = () => {
+const SoldPage = () => {
   return (
     <div className='mt-[10px]'  style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
       <Hero />
-      <Carosuel />
       <Features/>
       <Explore />
+      <Carosuel />
     </div>
   )
 }
 
-export default RentPage
+export default SoldPage
